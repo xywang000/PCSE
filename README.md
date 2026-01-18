@@ -1,6 +1,6 @@
 # PCSE
 
-This repository is a revision-stage partial code release. It provides the core model modules (see `model.py`) and the split lists used in our experiments. It is not a full end-to-end reproduction package.
+This repository provides a partial code release for our paper on Progressive Temporal Compensation and Semantic Enhancement (PCSE) for exocentric-to-egocentric video generation. It includes the core model modules (see `model.py`) and the split lists used in our experiments. It is not a full end-to-end reproduction package.
 
 ## Files
 
@@ -12,4 +12,3 @@ This repository is a revision-stage partial code release. It provides the core m
 ## Note
 
 The full training pipeline (dataloaders, complete loss definitions, preprocessing, checkpoints, and evaluation scripts) is not included in this public snapshot. `train.py` depends on additional internal modules and is provided for reference only.
-
